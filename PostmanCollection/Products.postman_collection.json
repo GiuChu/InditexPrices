@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "a7fecfd8-8db9-4154-9f24-da5831087001",
+		"name": "Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sort",
+			"item": [
+				{
+					"name": "getProductPrice",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/products/price?date=2020-06-14-18.30.01&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"products",
+								"price"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-14-18.30.01"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
